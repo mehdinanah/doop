@@ -1,0 +1,33 @@
+main{
+    background-color:yellow;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.div1{
+    /* background-color: brown; */
+    padding-left: 350px;
+}
+.photoo{
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 350px;
+    
+}
+.butt{
+    border: 0px;
+    border-radius: 200px;
+    background-color: black;
+}
+.about{
+    border: 0px;
+    border-radius: 20px;
+    color: red;
+    width: 10vw;
+    height: 5vh;
+}
+.touch{
+    
+}
