@@ -334,5 +334,21 @@ input{
     display: none;
     
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.A{
+    display: none;
+}
+.C{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 
 }
