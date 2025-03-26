@@ -151,11 +151,7 @@ main{
     color: rgb(62, 12, 108);
     padding-left: 51vh;
 }
-form{
-    
-    /* padding-top: 50px; */
 
-}
 .Formulaire{
     display: flex;
     align-items: center;
@@ -187,7 +183,7 @@ form{
     padding-left: 40px;
 }
 .sind{
-    padding: 60px;
+    padding: 60px;}
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 *{
     padding: 0;
