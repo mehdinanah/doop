@@ -1,13 +1,33 @@
 main{
-    background-color:yellow;
+    /* background-color:yellow; */
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    
+    
 }
 .div1{
     /* background-color: brown; */
     padding-left: 350px;
+    
 }
+.divh1{
+    color: rgb(9, 9, 63);
+    font-size: xx-large;
+    height: 10vh;
+    width: 30vw;
+    margin-bottom: 20%;
+
+    
+}
+.divp{
+    font-weight:5px ;
+    color: gray;
+    height: 10vh;
+    width: 30vw;
+    }
+
+
 .photoo{
     /* background-color: black; */
     display: flex;
@@ -16,18 +36,156 @@ main{
     padding-right: 350px;
     
 }
-.butt{
-    border: 0px;
-    border-radius: 200px;
-    background-color: black;
-}
+
 .about{
-    border: 0px;
+    border: none;
     border-radius: 20px;
-    color: red;
+    color:wheat;
+    background-color: red;
     width: 10vw;
     height: 5vh;
 }
 .touch{
+    border: none;
+    border-radius: 20px;
+    color:blue;
+    background-color:white;
+    width: 10vw;
+    height: 5vh;
     
+}
+.div2{
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vh;
+    padding-top: 15vh;
+    padding-left: 49vh;
+    padding-right: 49vh;
+}
+.butth1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20vh;
+    
+}
+.lorem1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    border: 1px solid black;
+    width: 20vw;
+    padding: 20px;
+    
+}
+.imessage{
+    font-size: larger;
+    color: rgb(6, 6, 134);
+    /* width: 20vw; */
+    /* height: 20vh; */
+}
+.pargh{
+    color: gray;
+}
+.lorem2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 20vw;
+    padding: 20px;
+    
+
+    
+}
+.messagei{
+    font-size: larger;
+    color: rgb(6, 6, 134);
+
+}
+.webd{
+    color: rgb(8, 8, 83);
+    width: 15vw;
+    height: 12vh;
+    font-size: 20px;
+
+}
+.parghra{
+    color: gray;
+}
+.butth1 h1{
+       color: rgb(10, 10, 82);
+        width: 20vw;
+        
+        
+        
+}
+.Web{
+    
+    color: rgb(8, 8, 83);
+    width: 15vw;
+    height: 12vh;
+    font-size: 20px;
+}
+.bott{
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 10vw;
+    height: 5vh;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    text-decoration: none;
+    color: orangered;
+    padding-left: 51vh;
+    font-weight: bold;
+}
+
+.links h2{
+    color: rgb(62, 12, 108);
+    padding-left: 51vh;
+}
+form{
+    
+    /* padding-top: 50px; */
+
+}
+.Formulaire{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 50vw;
+    padding-left: 51vh;
+    
+    
+}
+.message{
+    width: 50vw;
+    padding-left: 51vh;
+   
+    
+    
+    padding-top: 15px;
+    
+}
+.sind button{
+    display: flex;
+    align-items: center;
+    
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    padding-left: 40px;
+}
+.sind{
+    padding: 60px;
 }
