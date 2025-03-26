@@ -310,9 +310,9 @@ nav{
     width: 50vw;
     height: 100vh;
     position: absolute;
-    right:-5000px;
+    left:-5000px;
     top: 45px;
-    transition: 0.5s ;
+    transition: 0.5s ease-in;
 
 }
 input,button{
@@ -334,7 +334,5 @@ input{
     display: none;
     
 }
-
-
 
 }
