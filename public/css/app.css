@@ -154,6 +154,8 @@ main{
     padding-left: 51vh;
 }
 
+
+
 .Formulaire{
     display: flex;
     align-items: center;
@@ -184,8 +186,8 @@ main{
     height: 5vh;
     padding-left: 40px;
 }
-.sind{
-    padding: 60px;}
+.sind
+    padding: 60px;
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 *{
     padding: 0;
@@ -240,6 +242,8 @@ footer{
     height: 300px;
     gap: 20px;
     color: white;
+    margin-top: 20vh;
+    
     
 }
 .p{
@@ -255,6 +259,7 @@ footer{
 }
 a{
     text-decoration: none;
+    
 }
 .A{
     color:rgb(202, 199, 199);
@@ -265,10 +270,6 @@ a{
     font-weight: 600;
     font-style: normal;
     
-    
-}
-.A a {
-color: white;
 }
 .C{
     display: flex;
@@ -283,74 +284,4 @@ color: white;
     font-style: normal;
     color: rgb(232, 227, 227);
     
-}
-.fa-bars{
-    display: none;
-}
-label{
-    display: none;
-}
-input{
-    display: none;
-}
-@media (max-width: 767px){
-nav{
-    display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   width: 100%;
-   padding: 0;
-   position: relative;
-}
-.tchaild{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:white;
-    width: 50vw;
-    height: 100vh;
-    position: absolute;
-    left:-5000px;
-    top: 45px;
-    transition: 0.5s ease-in;
-
-}
-input,button{
-    display: none;
-}
-.fa-bars{
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
- #respo:checked +.tchaild {
-     left:0;
-}
-label{
-    display: block;
-}
-input{
-    display: none;
-    
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.A{
-    display: none;
-}
-.C{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-
-
-
-
 }
